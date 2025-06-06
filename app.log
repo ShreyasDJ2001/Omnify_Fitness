@@ -1,0 +1,117 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 16:12:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 16:12:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:26:13] "GET / HTTP/1.1" 200 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:26:28] "GET /classes HTTP/1.1" 200 -
+WARNING:root:No bookings found in the system.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:26:42] "[33mGET /all-bookings HTTP/1.1[0m" 404 -
+INFO:root:Retrieved 5 classes in timezone: America/New_York
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:26:52] "GET /classes-by-timezone?timezone=America/New_York HTTP/1.1" 200 -
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:49:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:49:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:49:44] "GET / HTTP/1.1" 200 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:49:52] "GET /classes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:59:08] "[31m[1mGET /book HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:59:41] "[31m[1mGET /book HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 18:59:53] "[31m[1mGET /book HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:00:15] "[31m[1mGET /book HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:00:42] "GET / HTTP/1.1" 200 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:00:51] "GET /classes HTTP/1.1" 200 -
+INFO:root:Booking successful for suahs in Class ID 4. Requested Date: 2025-06-20, Class Date: 2025-06-20
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:01:17] "[35m[1mPOST /book HTTP/1.1[0m" 201 -
+ERROR:root:Booking failed: No slots left for Class ID 4.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:01:30] "[31m[1mPOST /book HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:02:10] "GET /classes HTTP/1.1" 200 -
+INFO:root:Booking successful for chinmayi in Class ID 4. Requested Date: 2025-06-20, Class Date: 2025-06-20
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:02:16] "[35m[1mPOST /book HTTP/1.1[0m" 201 -
+INFO:root:Booking successful for chinmayi in Class ID 5. Requested Date: 2025-06-10, Class Date: 2025-06-10
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:02:36] "[35m[1mPOST /book HTTP/1.1[0m" 201 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:06:18] "GET / HTTP/1.1" 200 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:06:36] "GET /classes HTTP/1.1" 200 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:08:00] "GET /classes HTTP/1.1" 200 -
+INFO:root:Retrieved 5 classes in timezone: America/New_York
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:08:02] "GET /classes-by-timezone?timezone=America/New_York HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:08:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:22:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:22:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:23:11] "GET /classes HTTP/1.1" 200 -
+WARNING:root:Booking failed: Requested date 2025-06-20 does not match available slot (2025-06-10).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:23:57] "[31m[1mPOST /book HTTP/1.1[0m" 400 -
+INFO:root:Retrieved 2 bookings for email: chinmayi@example.com. Timezone: Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:24:23] "GET /bookings?email=chinmayi@example.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:24:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Retrieved 2 total bookings. Timezone: Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:24:47] "GET /all-bookings HTTP/1.1" 200 -
+INFO:root:Retrieved 5 classes in timezone: America/New_York
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:25:10] "GET /classes-by-timezone?timezone=America/New_York HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Home endpoint accessed.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:47:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:47:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Retrieved 5 fitness classes for timezone Asia/Kolkata.
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:47:48] "GET /classes HTTP/1.1" 200 -
+INFO:root:Retrieved 5 classes in timezone: America/New_York
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:48:17] "GET /classes-by-timezone?timezone=America/New_York HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:48:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:Booking failed: Requested date 2025-06-20 does not match available slot (2025-06-10).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:49:08] "[31m[1mPOST /book HTTP/1.1[0m" 400 -
+WARNING:root:Booking failed: Requested date 2025-06-09 does not match available slot (2025-06-10).
+INFO:werkzeug:127.0.0.1 - - [06/Jun/2025 19:49:30] "[31m[1mPOST /book HTTP/1.1[0m" 400 -
