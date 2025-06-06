@@ -61,12 +61,17 @@ elif menu == "Book a Class":
     col1, col2 = st.columns([1, 2])
 
     with col1:
+        # Ensure class ID is a positive integer
         class_id = st.number_input("🎯 Enter Class ID", min_value=1, step=1)
+        # Timezone selection - predefined list helps avoid invalid entries
         timezone = st.selectbox("🌍 Select Timezone", ["Asia/Kolkata", "America/New_York", "Europe/London"])
 
     with col2:
+        # Validate that client name is not empty
         client_name = st.text_input("👤 Your Name")
+        # Validate that email format is correct
         client_email = st.text_input("📧 Your Email")
+        # Ensure local time follows correct format to avoid parsing errors
         local_time = st.text_input("⏳ Enter Local Time (YYYY-MM-DD HH:MM)")
 
     if st.button("Book Now"):
